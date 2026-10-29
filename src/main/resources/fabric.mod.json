@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "zidle",
+  "version": "${version}",
+  "name": "Project Z-Idle: Pandemia Global",
+  "description": "Juego incremental zombi dentro de Minecraft: infecta, produce virus, evita la vacuna y haz prestigio.",
+  "authors": ["Z-Idle"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["com.zidle.ZIdleMod"] },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
